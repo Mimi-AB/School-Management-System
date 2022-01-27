@@ -5,10 +5,11 @@ package com.revature;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
+import com.revature.models.Person;
 
 public class AppTest {
     @Test public void appHasAGreeting() {
-        App classUnderTest = new App();
+        Person classUnderTest = new Person();
         assertNotNull("app should have a greeting", classUnderTest.getGreeting());
     }
 }
